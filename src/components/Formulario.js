@@ -21,7 +21,7 @@ const Formulario = () => {
 
     return (
         <Fragment>
-            <h3>Formulario</h3>
+            <h3>Formulario comun</h3>
             <form className="row" onSubmit={enviarDatos}>
                 <div className="col-md-3">
                     <input 

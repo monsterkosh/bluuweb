@@ -13,6 +13,8 @@ import User from './components/User';
 import Crud from './components/Crud'
 import Contadores from './components/Contadores'
 import Formularios from './components/Formularios'
+import PokeApp from './components/PokeApp'
+
 
 
 function App() {
@@ -35,10 +37,14 @@ function App() {
           <Link to='/Crud' className='btn btn-dark'> 
             CRUD
           </Link>
+          <Link to='/PokeApp' className='btn btn-dark'> 
+            Redux API Fetch
+          </Link>
           <NavLink to='/contacto' className='btn btn-dark' activeClassName='active'> 
             Contacto
           </NavLink>
         </div>
+
         <hr />
         <Switch>
           <Route path='/Ageapi/:id'>
@@ -62,6 +68,10 @@ function App() {
           <Route path='/Formularios'>
             <Formularios />
           </Route>  
+          <Route path='/PokeApp'>
+            <PokeApp />
+          </Route>  
+
 
         </Switch>
       </div>

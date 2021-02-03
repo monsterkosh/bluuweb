@@ -13,6 +13,7 @@ const Formularios = () => {
 
     return ( 
         <div>
+            <h1>Formularios</h1>
             <Formulario />
             <EjemploUno />
             <Comentario sujeto={sujeto}/>
